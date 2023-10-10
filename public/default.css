@@ -1,0 +1,67 @@
+#wrapper {
+    width: 940px;
+    height: 600px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.userContainer {
+    width:20%;
+    border-right:1px solid black;
+    height:100%;
+    overflow:auto;
+    background-color:#115959;
+    color:white;
+    text-indent: 10px;
+    font-family: cursive;
+    font-size: large;
+}
+
+.conversationContainer {
+    width: 80%;
+    height:100%;
+    padding:10px;
+    overflow: auto;
+    color:black;
+    background-color: #30F2CF ;
+    box-sizing: border-box;
+    
+    
+}
+
+
+#msgBox {
+    margin-top: 500px;
+}
+
+#data {
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#datasend {
+    background-color: #fa0000;
+    border-color: whitesmoke;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    font-weight: bolder;
+    color: beige;
+    cursor: pointer;
+}
+
+#fileinput {
+    width: 400px;
+    background-color: whitesmoke;
+}
+
+#file-send {
+    background-color: #fa0000;
+    color: aliceblue;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+

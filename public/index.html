@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <script src="scripts/socket.io.js"></script>
+    <script src="scripts/default.js"></script>
+    <link href="default.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <div class="userContainer" >
+            <h2>Active Users</h2>
+            <div id="users"></div>
+        </div>
+
+        <div class="conversationContainer">
+            <div id="conversation">
+            </div>
+
+            <div id="msgBox">
+            <input id="data" />
+            <input type="button" id="datasend" value="send &gt;" />
+            
+            <input id="file-input" type="file"/>
+            <button id="file-send" type="submit">Send File</button>
+            </div>
+
+            <!-- A form to send files -->
+            
+            
+           
+
+        </div>
+
+    </div>
+</body>
+</html>
